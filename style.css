@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.outer-box{
+    background: linear-gradient(to top right, #eff7fa, #b8e7fa);
+    width: 100vw;
+    height: 100vh;
+}
+
+.inner-box{
+    background: linear-gradient(to top left, #d9f0fa, #86d8f8);
+    border: 2px solid;
+    height: 400px;
+    width: 350px;
+    margin: 0 auto;
+    position: relative;
+    top: 20%;
+    font-family: "Lato", sans-serif;
+    border-radius: 8px;
+    border-color: transparent;
+    box-shadow: 5px 5px 5px ;
+    z-index: 2;
+}
+
+.head{
+    font-size: 1.2rem;
+    margin: 0px 10px;
+    padding: 10px;
+}
+
+.secs{
+    font-size: 1rem;
+}
+
+.inner-main{
+    margin: 0px 10px;
+    padding: 10px;
+}
+
+label{
+    color: #3f3f3f;
+    font-weight: 700;
+    font-size: 1rem;
+    display: block;
+    padding: 4px 0px;
+    
+}
+
+input{
+    font-size: 1.1rem;
+    width: 100%;
+}
+
+#login{
+    cursor: pointer;
+    border: none;
+    background-color: #0e89b9;
+    color: white;
+    font-size: 1.2rem;
+    margin: 12px 0px;
+}
+
+.foot{
+    text-align: center;
+    
+}
+
+.link{
+    color: #0e89b9;
+}
+
+.circle{
+    width: 130px;
+    height: 130px;
+    border-radius: 100px;
+    background: linear-gradient(to top right, rgb(247, 251, 255), rgb(229, 242, 255));
+}
+
+.c1{
+    position: fixed;
+    top: 110px;
+    left: 100px;
+}
+
+.c2{
+    position: fixed;
+    right: 100px;
+    bottom: 110px;
+}
